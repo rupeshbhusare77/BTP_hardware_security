@@ -1,6 +1,6 @@
-# Phase 1: Last Semester
+# Phase 1: 7th Semester
 
-This folder contains the previous semester work of the BTP. The focus in this phase was on learning and applying side-channel attacks on a firmware target using the ChipWhisperer Nano platform.
+This folder contains the 7th semester work of the BTP. The focus in this phase was on learning and applying side-channel attacks on a firmware target using the ChipWhisperer Nano platform.
 
 ---
 
@@ -30,7 +30,7 @@ This phase is the foundation of the current semester work. Without this step, th
 ## Folder Contents
 
 ```text
-phase-1_last-sem/
+phase-1_7th-sem/
 ├── README.md
 └── report/
     ├── Chipwhisperer_report_tutorial_rupesh.pdf
@@ -38,7 +38,7 @@ phase-1_last-sem/
 ```
 
 ### `report/`
-This folder stores the main deliverables from the previous semester.
+This folder stores the main deliverables from the 7th semester.
 
 Current files:
 - `Chipwhisperer_report_tutorial_rupesh.pdf`

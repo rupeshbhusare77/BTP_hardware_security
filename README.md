@@ -4,8 +4,8 @@ This repository is organized as a two-phase Bachelor of Technology project in ha
 
 The work is split semester-wise:
 
-- `phase-1_last-sem/`: previous semester work on ChipWhisperer Nano and firmware-side attacks
-- `phase-2_current-sem/`: current semester work on CW305, Ascon-128, HLS-based hardware generation, and the prepared next stage for FPGA-side evaluation
+- `phase-1_7th-sem/`: 7th semester work on ChipWhisperer Nano and firmware-side attacks
+- `phase-2_8th-sem/`: 8th semester work on CW305, Ascon-128, HLS-based hardware generation, and the prepared next stage for FPGA-side evaluation
 
 This structure is meant to keep the full BTP journey clear. Phase 1 shows the base work that built the required side-channel attack understanding. Phase 2 shows the move from software targets to hardware targets.
 
@@ -16,12 +16,12 @@ This structure is meant to keep the full BTP journey clear. Phase 1 shows the ba
 ```text
 BTP_Hardware_security/
 ├── README.md
-├── phase-1_last-sem/
+├── phase-1_7th-sem/
 │   ├── README.md
 │   └── report/
 │       ├── Chipwhisperer_report_tutorial_rupesh.pdf
 │       └── Presentation_chipwhisperer.pdf
-└── phase-2_current-sem/
+└── phase-2_8th-sem/
     ├── README.md
     ├── docs/
     │   ├── final-report/
@@ -47,7 +47,7 @@ BTP_Hardware_security/
 
 ## Phase 1 Overview
 
-`phase-1_last-sem/` contains the first semester work. This phase focused on learning ChipWhisperer basics and performing side-channel analysis on a firmware target.
+`phase-1_7th-sem/` contains the 7th semester work. This phase focused on learning ChipWhisperer basics and performing side-channel analysis on a firmware target.
 
 ### Main focus
 - Target board: ChipWhisperer Nano
@@ -68,7 +68,7 @@ This phase is important because it forms the direct technical base for the curre
 
 ## Phase 2 Overview
 
-`phase-2_current-sem/` contains the current semester work. This phase moves from firmware security to hardware security.
+`phase-2_8th-sem/` contains the 8th semester work. This phase moves from firmware security to hardware security.
 
 ### Main focus
 - Target board: ChipWhisperer CW305 Artix-7 FPGA
@@ -97,7 +97,7 @@ This phase is important because it forms the direct technical base for the curre
 
 ## Detailed Structure
 
-### `phase-1_last-sem/report/`
+### `phase-1_7th-sem/report/`
 This folder stores the main outputs from the previous semester.
 
 Current files:
@@ -110,10 +110,10 @@ Purpose:
 
 ---
 
-### `phase-2_current-sem/docs/`
+### `phase-2_8th-sem/docs/`
 This folder stores formal written outputs from the current semester.
 
-#### `phase-2_current-sem/docs/final-report/`
+#### `phase-2_8th-sem/docs/final-report/`
 Current files:
 - `BTP_report_Rupesh.pdf`
 - `BTP_final.pptx`
@@ -122,7 +122,7 @@ Purpose:
 - store the final BTP report for the current semester
 - store the presentation file related to the current phase
 
-#### `phase-2_current-sem/docs/instruction-guide/`
+#### `phase-2_8th-sem/docs/instruction-guide/`
 Current files:
 - `BTP_Instructions_rupesh.pdf`
 
@@ -132,7 +132,7 @@ Purpose:
 
 ---
 
-### `phase-2_current-sem/src/hls/`
+### `phase-2_8th-sem/src/hls/`
 This folder stores the main HLS-side source code used in the current project.
 
 Current files:
@@ -166,10 +166,10 @@ Note:
 
 ---
 
-### `phase-2_current-sem/scripts/`
+### `phase-2_8th-sem/scripts/`
 This folder stores the automation and execution-side scripts.
 
-#### `phase-2_current-sem/scripts/hls/`
+#### `phase-2_8th-sem/scripts/hls/`
 Current files:
 - `run_exploration.tcl`
 
@@ -177,7 +177,7 @@ Purpose:
 - automates HLS design-space exploration
 - runs multiple solutions such as baseline, unrolled, pipelined, and dataflow
 
-#### `phase-2_current-sem/scripts/notebooks/`
+#### `phase-2_8th-sem/scripts/notebooks/`
 Current files:
 - `Ascon_Hardware_Test.ipynb`
 
@@ -222,7 +222,7 @@ So the structure is not only for storage. It also reflects the technical growth 
 
 - Phase 1 should be read first if someone wants to understand the base side-channel workflow.
 - Phase 2 should be read for the hardware transition, HLS structure, and the current implementation path.
-- The source code in `phase-2_current-sem/src/hls/` is the main code set relevant to the current semester work.
-- The scripts in `phase-2_current-sem/scripts/` support synthesis automation and hardware execution planning.
+- The source code in `phase-2_8th-sem/src/hls/` is the main code set relevant to the 8th semester work.
+- The scripts in `phase-2_8th-sem/scripts/` support synthesis automation and hardware execution planning.
 
 This structure is designed to be simple, academic, and easy to explain during project review.

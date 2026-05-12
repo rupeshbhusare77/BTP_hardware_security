@@ -1,6 +1,6 @@
-# Phase 2: Current Semester
+# Phase 2: 8th Semester
 
-This folder contains the current semester work of the BTP. The focus in this phase is the move from firmware-based side-channel analysis to hardware-oriented design and evaluation on the ChipWhisperer CW305 FPGA platform.
+This folder contains the 8th semester work of the BTP. The focus in this phase is the move from firmware-based side-channel analysis to hardware-oriented design and evaluation on the ChipWhisperer CW305 FPGA platform.
 
 ---
 
@@ -30,7 +30,7 @@ This is the major transition from attacking firmware instructions to studying le
 ## Folder Structure
 
 ```text
-phase-2_current-sem/
+phase-2_8th-sem/
 ├── README.md
 ├── docs/
 │   ├── final-report/
@@ -64,7 +64,7 @@ Current files:
 - `BTP_final.pptx`
 
 Purpose:
-- store the final current-semester BTP report
+- store the final 8th-semester BTP report
 - store the presentation material for this phase
 
 ### `docs/instruction-guide/`
@@ -159,7 +159,7 @@ So this phase includes both completed implementation work and the structured bas
 
 ## Why This Folder Matters
 
-This is the main technical folder of the current BTP phase. It contains the code, automation, and written outputs needed to explain:
+This is the main technical folder of the 8th semester BTP phase. It contains the code, automation, and written outputs needed to explain:
 
 - how Ascon-128 was adapted for HLS,
 - how the HLS exploration was performed,
